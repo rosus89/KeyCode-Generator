@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    height: 90vh;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wrapper{
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper > *{
+    padding: 1rem 2rem;
+    background: #000;
+    color:#fff;
+    border-radius: 2rem;
+}
+
+
+
+.hidden {
+    display: none;
+}
